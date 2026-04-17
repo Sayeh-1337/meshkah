@@ -1,0 +1,15 @@
+# Needed when colcon runs with an active venv (CMake uses venv python for package.xml parsing).
+catkin_pkg
+# Used by ROS 2 Jazzy rosidl_parser during message generation (same error if system Python lacks it).
+lark
+
+numpy
+scipy
+filterpy
+opencv-python
+ultralytics
+torch
+librosa
+pyserial
+pymavlink
+pytest

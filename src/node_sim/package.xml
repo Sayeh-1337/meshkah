@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>node_sim</name>
+  <version>0.1.0</version>
+  <description>Virtual and real detector nodes for meshkah.</description>
+  <maintainer email="research@example.com">meshkah</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>builtin_interfaces</depend>
+  <depend>cuas_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

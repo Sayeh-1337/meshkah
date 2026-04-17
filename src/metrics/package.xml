@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>metrics</name>
+  <version>0.1.0</version>
+  <description>Evaluation metrics for meshkah CUAS-SIM.</description>
+  <maintainer email="research@example.com">meshkah</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>cuas_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

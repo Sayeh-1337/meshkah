@@ -1,0 +1,85 @@
+# ------------------------------
+# OS / editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment files / secrets
+.env
+.env.*
+*.local
+
+# ------------------------------
+# ROS 2 / colcon artifacts
+# ------------------------------
+build/
+install/
+log/
+logs/
+
+# ROS bags
+*.db3
+*.db3-shm
+*.db3-wal
+*.mcap
+
+# ArduPilot / MAVProxy artifacts
+*.BIN
+*.bin
+*.raw
+*.parm
+*.param
+*.params
+*.tlog
+*.rlog
+*.ulg
+
+# ------------------------------
+# C / C++ build outputs
+# ------------------------------
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+
+# ------------------------------
+# Archives / temp files
+# ------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.tmp
+*.temp

@@ -1,0 +1,9 @@
+string node_id
+float64 lat
+float64 lon
+float64 alt
+float64 azimuth_deg
+float64 elevation_deg
+float64 confidence
+string modality
+builtin_interfaces/Time stamp
